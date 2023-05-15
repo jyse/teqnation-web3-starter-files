@@ -35,7 +35,7 @@ function App() {
 
   const connect = async () => {
     // Step 2: Connect wallet (check Metamask + accounts)
-    // Step 4: Wire up contract (providiger, signer, NFTContract)
+    // Step 4: Wire up contract (provider, signer, NFTContract)
   };
 
   const getState = () => {
