@@ -1,0 +1,23 @@
+{
+  "name": "Squeaky Teqqies",
+  "description": "Loves to make sound instead of talking",
+  "image": "ipfs://QmWMoc9hr24qf2cU6o7fVRcsBSA5edrsPDRHVDdkRtCvhZ/14.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "White"
+    },
+    {
+      "trait_type": "Robot",
+      "value": "Blue, Green and Red"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Big white and black pupil"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Cool blue body shield"
+    }
+  ]
+}

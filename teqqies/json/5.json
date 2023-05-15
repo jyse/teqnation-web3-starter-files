@@ -1,0 +1,23 @@
+{
+  "name": "Crazy Teqqies",
+  "description": "Crazy about code",
+  "image": "ipfs://QmWMoc9hr24qf2cU6o7fVRcsBSA5edrsPDRHVDdkRtCvhZ/5.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Purple blue"
+    },
+    {
+      "trait_type": "Robot color",
+      "value": "Blue or Red"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Round with different pupils"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Laptops with a good speaker system"
+    }
+  ]
+}

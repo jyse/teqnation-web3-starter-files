@@ -1,0 +1,23 @@
+{
+  "name": "A Teqqie called Kirby",
+  "description": "Loves to watch Netflix and eat popcorn",
+  "image": "ipfs://QmWMoc9hr24qf2cU6o7fVRcsBSA5edrsPDRHVDdkRtCvhZ/9.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Yellow and Orange gradient"
+    },
+    {
+      "trait_type": "Robot color",
+      "value": "Dark silver with blue accents"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Round and darkblue with a light in the middle"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "A 8-inch laptop"
+    }
+  ]
+}

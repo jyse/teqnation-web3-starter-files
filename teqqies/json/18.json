@@ -1,0 +1,23 @@
+{
+  "name": "Neon Teqqie",
+  "description": "Loves to create visual art with code",
+  "image": "ipfs://QmWMoc9hr24qf2cU6o7fVRcsBSA5edrsPDRHVDdkRtCvhZ/18.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "black"
+    },
+    {
+      "trait_type": "Robot",
+      "value": "Neon bright coloured"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Big Round Pink and Turqoise Eyes"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Yellow boots"
+    }
+  ]
+}

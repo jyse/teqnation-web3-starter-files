@@ -1,0 +1,23 @@
+{
+  "name": "Architecture Teqqies",
+  "description": "They love to think about the architecture of code",
+  "image": "ipfs://QmWMoc9hr24qf2cU6o7fVRcsBSA5edrsPDRHVDdkRtCvhZ/4.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Bright Purple"
+    },
+    {
+      "trait_type": "Robot color",
+      "value": "Blue or Green"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Round and white"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Laptops"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Yoga Teqqie",
+  "description": "Loves to do yoga and code",
+  "image": "ipfs://QmWMoc9hr24qf2cU6o7fVRcsBSA5edrsPDRHVDdkRtCvhZ/17.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Light orange"
+    },
+    {
+      "trait_type": "Robot",
+      "value": "White with yellow and green accents"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Round black eyes"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Yellow head stickers and yellow boots plus dot"
+    }
+  ]
+}

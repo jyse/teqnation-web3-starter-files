@@ -1,0 +1,23 @@
+{
+  "name": "A Teqqie called Skittle ",
+  "description": "Loves to code and make music",
+  "image": "ipfs://QmWMoc9hr24qf2cU6o7fVRcsBSA5edrsPDRHVDdkRtCvhZ/8.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Orange and Yellow Gradient"
+    },
+    {
+      "trait_type": "Robot color",
+      "value": "White with blue accents"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Round and Blue"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Armor on both arms"
+    }
+  ]
+}

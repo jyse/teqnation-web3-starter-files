@@ -1,0 +1,23 @@
+{
+  "name": "Midori Teqqie",
+  "description": "Loves green stuff and plants",
+  "image": "ipfs://QmWMoc9hr24qf2cU6o7fVRcsBSA5edrsPDRHVDdkRtCvhZ/16.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Mintgreen"
+    },
+    {
+      "trait_type": "Robot",
+      "value": "Dark green with white accents"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Little black squares"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Cool Sky Blue Antenne"
+    }
+  ]
+}

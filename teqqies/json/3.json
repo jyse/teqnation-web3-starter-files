@@ -1,0 +1,23 @@
+{
+  "name": "Geeky Teqqoes",
+  "description": "They love to play video games together",
+  "image": "ipfs://QmWMoc9hr24qf2cU6o7fVRcsBSA5edrsPDRHVDdkRtCvhZ/3.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Mysterious purple"
+    },
+    {
+      "trait_type": "Robot color",
+      "value": "Silver, Blue or Green"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Round with glasses"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Laptops with touch screen"
+    }
+  ]
+}

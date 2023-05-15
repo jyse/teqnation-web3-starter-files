@@ -1,0 +1,142 @@
+*************************************************************************************************************
+
+  Part 2: Connecting the frontend to the smart contract. ReactJS & ethers.js
+
+*************************************************************************************************************
+
+💠 Step 1: Run the app
+👉 Open up your starter files 
+👉 Go to the teqnation-minting-site folder and
+👉 Click on App.js
+❗Run your app in the browser! 
+👉Open up an integrated terminal 
+❗❗cd to the teqnation-minting-site-folder 
+👉 and run your app with npm start
+👉 do npm install in case you can’t start it up! 
+
+💠 Step 2: Connect wallet (check Metamask + accounts)
+👉 Go to your starter files and open up App.js
+👉 Go to the login()
+💻 Write if (typeof window.ethereum !== "undefined") { }
+💻 Write a console.log(“Metamask is installed”)
+💻 Write const accounts = await window.ethereum.request({
+   method: "eth_requestAccounts"
+   });
+💻 Write const walletAccount = accounts[0]
+👉 console.log(walletAccount);
+👉 set the walletAccount 
+💻 Write setAccount(walletAccount)
+❗ Add the login() to your Connect wallet button!
+👀 Go to the browser and
+❗ Disconnect your Metamask first if it is connected!!
+👉 Try to connect your wallet by clicking the Connect Wallet button
+🦊 Does your Metamask come up?
+👀 And check the console for your account address!
+
+💠 Step 3: Render mint button conditionally
+👉 Go to the line of <div className=”button”>Connect Wallet </div>
+💻 Write {account ? (<div className=”button”>MINT</div>) : (<div className=”button”>Connect Wallet”</div>} under <p>
+❗ Make sure to add a onClick of the mint function on the Mint button and an onClick of the login function on the Connect Wallet button
+
+💠 Step 4: Wire up contract (provider, signer, NFTContract)
+👉 Import ethers at the top of our code: import {ethers} from “ethers”
+👉 Remember your contract address? Copy and paste it here (still in the login function)
+❗If you forgot your contract address, check your terminal in Remix and try to find the latest contract creation by also checking etherscan links!
+🙋‍♂️🙋‍♀️ Otherwise ask me or my support team, to get a contractAddress and make sure to ask about an abi
+👉 Make a contractAddress variable and set your contractAddress as a value
+👀 Example: const contractAddres = “0xdContractAddressExample883424” 
+💻 Write const contractAddres = “0xdContractAddressExample88385”
+🌐 documentation on ethers is here: https://docs.ethers.io/v5/
+👇 Write these pieces of code:
+💻 Write const provider = new ethers.providers.Web3Provider(window.ethereum);
+💻 Write const signer = provider.getSigner(walletAccount);
+💻 Write let NFTContract = new ethers.Contract(contractAddress, abi, signer);
+🌐 Click on this link to see an example of ABI of a smart contract from the Azuki #7908 NFT: https://etherscan.io/address/0xed5af388653567af2f388e6224dc7c4b3241c544#code
+👉 Go to Remix
+👉 Go to the Solidity Compiler Section
+❌ Do not change the contract, deploy it or anything!
+👀 Look for Abi at the bottom and copy that  
+👉 Go back to your minting-site code
+👉 Find the folder called manual and the file abi.json
+👉 Remove the object {name: “abi”}
+👉 Paste the abi-json in there! Make sure to save it
+👉 Go to App.js
+💻 Write import abi from “./manual/abi.json” at the top
+💻 Write console.log(NFTContract)
+💻 Write setContract(NFTContract)
+❗ Make sure all this functionality is INSIDE your if-statement (typeof window.ether etc.)
+
+💠 Step 5: Add totalSupply and use it from the contract
+💻 Write useEffect with contract as dependency and getTotalSupply will fire of if the contract is true.
+💻 Write const totalSupply = await contract.totalSupply() in getTotalSupply();
+💻 Write setSupply(totalSupply.toNumber())
+💻 Write {supply} to your frontend → {supply} minted / 200
+
+💠 Step 6: Write the mint function
+💻 Write const transaction = await contract.safeMint()
+👉 Create a payload that takes a {value: ethers.utils.parseEther(“0.001”)
+💻 Write const payload = { value: ethers.utils.parseEther("0.001") };
+💻 Write console.log(transaction.hash)
+💻 Write setHash(transaction.hash)
+🌐 Go to your site, connect your wallet and MINT a NFT! 
+🦊 Your Metamask should pop up and ask you to pay 0.001 ether! Confirm
+
+💠 Step 7: Insert getState()
+👉 Go to where the account variable is rendered
+👉 Remove the Mint button below it and replace it with getState()
+👀 Look at the getState function we have
+
+💠 Step 8: Pass mint function to StartMinting component 
+💻 Write mint={mint} as props to the StartMinting Component 
+
+💠 Step 9: Set the variables for progress and completed
+👉 Go to the mint function (uncomment the following code)
+- setInProgress(true)
+- await transaction.wait()
+- setInProgress(false)
+- setCompleted(true)
+👀 go back to getState()
+
+💠 Step 10: Pass in the transaction hash to InProgressMinting Component and check this component
+👀 Checkout the InProgressMinting component
+👉 Pass the transaction hash as props, so the URL can be made up to look at this transaction in Etherscan
+💻 Write hash={hash} as props to the InProgressMinting Component 
+❗Make sure your transaction.hash is set as a hash!
+
+💠 Step 11: Check Etherscan when the NFT is in progress of being minted
+👉 Mint a NFT on the website!
+👀 Metamask should come up and ask you for ether, confirm
+👉 Click to see Etherscan
+🧘‍♀️ Hold your phone……wait..wait….
+👉 At Etherscan: Tokens transferred, you’ll see your NFT!
+👉 Click on the contract address
+👀 You can see all your mints there!
+👉 Copy the contract address
+👉 Go back to App.js 
+
+💠 Step 12: Check the CompletedMinting component
+
+💠 Step 13: View your collection on Testnet OpenSea
+👉 Google Testnet OpenSea
+🌐 Or use this URL https://testnets.opensea.io/
+❗ Testnet is different from the normal OpenSea!! You should see Testnets in the logo of OpenSea!
+👉 In the Search bar - paste in your contract address!
+👀 You should see your collection come up with the amount of NFTs you have minted up until now!
+👉 Grab the URL from this collection-page 
+👉 Paste it into your CompletedMinting component at url variable
+👀 The URL should like something like this “https://testnets.opensea.io/collection/<YourCollection>";
+💻 Write const url = ““https://testnets.opensea.io/collection/<YourCollection>";”
+
+💠 Step 14: In case you DON'T SEE your collection on Testnet OpenSea
+👉 In case you don't see your collection (sometimes that’s the ase),
+👉 Grab your contractAddress
+👉 Use and adjust this link 🌐 https://testnets.opensea.io/assets/goerli/<contractAddress>/0 and paste your contractAddress at <contractAddress>
+👀 You’ll see your last minted NFT with tokenId of 0
+👉 Click on the collection DevBots link on the site
+👉 Grab that URL from that collection page at the top and paste it into your CompletedMinting at url variable
+👀 The URL should like something like this https://testnets.opensea.io/assets/goerli/<YourCollection>";
+💻 Write const url = ““https://testnets.opensea.io/collection/<YourCollection>";”
+
+🌐 Mint a Teqqie NFT on your own web3 app!!
+
+We are DONE!!! 🥳 Good work!!

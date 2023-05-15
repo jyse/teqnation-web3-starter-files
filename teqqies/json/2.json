@@ -1,0 +1,23 @@
+{
+  "name": "Dummy Teqqies",
+  "description": "Like to code together",
+  "image": "ipfs://QmWMoc9hr24qf2cU6o7fVRcsBSA5edrsPDRHVDdkRtCvhZ/2.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Royal Blue"
+    },
+    {
+      "trait_type": "Robot color",
+      "value": "Blue, Green or Yellow"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Round and white"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Laptops built by themselves"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Disco Teqqie",
+  "description": "Loves to dance at the disco",
+  "image": "ipfs://QmWMoc9hr24qf2cU6o7fVRcsBSA5edrsPDRHVDdkRtCvhZ/15.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Baby Pink"
+    },
+    {
+      "trait_type": "Robot",
+      "value": "White with yellow, green and red bright lights"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Big white round eyes with black pupils"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Cool headband of lights and antenne"
+    }
+  ]
+}

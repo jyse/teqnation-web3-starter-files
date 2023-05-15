@@ -1,0 +1,23 @@
+{
+  "name": "Drawn Teqqies",
+  "description": "Loves to dance",
+  "image": "ipfs://QmWMoc9hr24qf2cU6o7fVRcsBSA5edrsPDRHVDdkRtCvhZ/12.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "White"
+    },
+    {
+      "trait_type": "Robot",
+      "value": "Diverse"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Diverse"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Diverse"
+    }
+  ]
+}

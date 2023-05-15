@@ -1,0 +1,23 @@
+{
+  "name": "Beetle Teqqies",
+  "description": "Love Beetle music",
+  "image": "ipfs://QmWMoc9hr24qf2cU6o7fVRcsBSA5edrsPDRHVDdkRtCvhZ/6.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Sunshine Yellow"
+    },
+    {
+      "trait_type": "Robot color",
+      "value": "Blue or Purple"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Either a window or round-shaped"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Little round antenne on top of their head"
+    }
+  ]
+}

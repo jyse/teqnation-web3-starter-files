@@ -1,0 +1,23 @@
+{
+  "name": "Rookie Teqqies",
+  "description": "Love to explore new things in code",
+  "image": "ipfs://QmWMoc9hr24qf2cU6o7fVRcsBSA5edrsPDRHVDdkRtCvhZ/7.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Orange Yellow Gradient"
+    },
+    {
+      "trait_type": "Robot color",
+      "value": "Silver or blue with yellow accents"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Round black eyes"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "One big laptop that serves as their house"
+    }
+  ]
+}

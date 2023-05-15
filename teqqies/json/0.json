@@ -1,0 +1,23 @@
+{
+  "name": "Teal Teqqies",
+  "description": "They love to brainstorm together about code",
+  "image": "ipfs://QmWMoc9hr24qf2cU6o7fVRcsBSA5edrsPDRHVDdkRtCvhZ/0.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "trait_value": "Dark Teal"
+    },
+    {
+      "trait_type": "Robot color",
+      "value": "White with neon blue parts"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Black and round"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Customised antenne on the head"
+    }
+  ]
+}

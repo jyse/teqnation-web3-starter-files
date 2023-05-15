@@ -1,0 +1,23 @@
+{
+  "name": "Teqqies Sibling",
+  "description": "Loves to code at hackathons together",
+  "image": "ipfs://QmWMoc9hr24qf2cU6o7fVRcsBSA5edrsPDRHVDdkRtCvhZ/11.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Sky Blue"
+    },
+    {
+      "trait_type": "Robot",
+      "value": "Black, Neon green and purple"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Big white with black pupil"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Cool shoes and laptops"
+    }
+  ]
+}

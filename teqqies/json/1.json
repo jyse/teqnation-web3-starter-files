@@ -1,0 +1,23 @@
+{
+  "name": "Teal Soldier Teqqies",
+  "description": "They love to walk in a group together",
+  "image": "ipfs://QmWMoc9hr24qf2cU6o7fVRcsBSA5edrsPDRHVDdkRtCvhZ/1.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Teal gradient"
+    },
+    {
+      "trait_type": "Robot color",
+      "value": "White with black parts"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Round or Square"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Neon teal shoulder pads"
+    }
+  ]
+}

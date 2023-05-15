@@ -1,0 +1,23 @@
+{
+  "name": "Clay Teqqies",
+  "description": "Loves to deconstruct a laptop",
+  "image": "ipfs://QmWMoc9hr24qf2cU6o7fVRcsBSA5edrsPDRHVDdkRtCvhZ/10.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Sunshine Yellow"
+    },
+    {
+      "trait_type": "Robot",
+      "value": "Dark purple"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Almost invisible"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "None"
+    }
+  ]
+}
