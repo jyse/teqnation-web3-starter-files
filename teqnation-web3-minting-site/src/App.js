@@ -69,7 +69,7 @@ function App() {
                 <h1>Teqqies</h1>
               </div>
               <div className="details-actions">
-                <p> {supply} / 18 minted </p>{" "}
+                <p> 0 / 18 minted </p>
                 {/* // Step 3: Render a mint button conditionally */}
                 {/* // Step 7: insert getState() */}
                 <div className="button connect" onClick={connect}>

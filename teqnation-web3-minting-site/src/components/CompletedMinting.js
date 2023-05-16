@@ -1,6 +1,6 @@
 import React from "react";
 
-const CompletedMinting = ({ address }) => {
+const CompletedMinting = () => {
   const viewOpenSea = () => {
     // Step 13: View your collectionnpm  on Testnet OpenSea
     const url = "https://testnets.opensea.io/collection/<to-be-decided>";
